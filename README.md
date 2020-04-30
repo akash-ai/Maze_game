@@ -1,2 +1,2 @@
 # Maze_game
-Created a maze game using Reinforcement Learning. In this, our agent tries to find the target inside the maze. 
+Created a maze game using Reinforcement Learning. I used Q-learning algorithm. It is an off-policy Reinforcement Algorithm that seeks to find the best action to take, given the current state. First, we choose action (Explore/Exploit) from our Agent and perform on the environment. Then, Agent gets reward from the environment and these includes 2 pieces of info. (next state, reward for running action). The information goes to the agent and it learns from the transitions. 
